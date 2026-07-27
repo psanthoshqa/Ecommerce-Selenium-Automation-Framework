@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Ecommerce Automation Suite">
+
+    <listeners>
+        <listener class-name="com.ecommerce.automation.utils.TestListener"/>
+    </listeners>
+
+    <test name="Chrome Tests">
+
+        <classes>
+
+            <class name="com.ecommerce.automation.tests.LoginTest"/>
+            <class name="com.ecommerce.automation.tests.SearchProductTest"/>
+            <class name="com.ecommerce.automation.tests.AddToCartTest"/>
+            <class name="com.ecommerce.automation.tests.PlaceOrderTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
