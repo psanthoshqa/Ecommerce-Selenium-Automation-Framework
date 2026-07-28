@@ -14,8 +14,8 @@ public class ConfigReader {
 
         try {
 
-            FileInputStream file =
-                    new FileInputStream("C:\\Users\\user\\eclipse-workspace\\ecommerce-automation-framework\\src\\test\\resources\\config.properties");
+            FileInputStream file = new FileInputStream(
+"src/test/resources/config.properties");
 
             properties.load(file);
 
